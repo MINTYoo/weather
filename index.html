@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <h1 id="Welcome">Welcome</h1>
+            <h2 id="title">Get Weather</h2>
+            <div class="input">
+                <input id="input__content" type="text" placeholder="Enter location">
+                <button id="submit__button" type="button">Enter</button>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <h1>API Data Retrieval Form</h1>
+            <form id="apiForm">
+                <label for="locationInput">Weather:</label>
+                <input id="weather__input" type="text" id="locationInput" >
+                <button type="button" onclick="getData()">Get Data</button>
+            </form>
+            <div id="output"></div>
+        </div>
+    </section>
+    <script src="get.js"></script>
+</body>
+</html>

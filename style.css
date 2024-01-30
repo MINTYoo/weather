@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Welcome, #title{
+    background-color: rgb(60, 65, 60);
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: azure;
+}
+#Welcome{
+    padding-top: 50px;
+}
+.input{
+    text-align: center;
+    color: azure;
+}
+#input__content{
+    margin-top: 20px;
+    height: 50px; 
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: black;
+    border: solid;
+}
+#submit__button {
+    height: 50px; 
+    width: 100px;
+    border-radius: 10px;
+}
+#submit__button:hover{
+    cursor: pointer;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(17, 16, 16, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#weather__input{
+    height: 500px;
+}
